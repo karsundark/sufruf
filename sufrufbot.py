@@ -4,7 +4,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 from aiogram.utils import executor
 
 # ===== Настройка бота =====
-TOKEN = "8008211499:AAFUuCnNQNR9R76g3fMioo3F2yejZoLnqJk"  # замените на свой токен
+TOKEN = "TOKEN"  # замените на свой токен
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
