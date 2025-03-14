@@ -1,0 +1,13 @@
+[build]
+builder = "Nixpacks"
+
+[build.env]
+# e.g. your environment variables if needed
+
+[build.cmd]
+# the command to install dependencies
+command = "pip install -r requirements.txt"
+
+[start]
+# the command to run your bot
+command = "python sufrufbot.py"
